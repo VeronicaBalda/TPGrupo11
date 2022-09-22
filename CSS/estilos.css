@@ -1,0 +1,154 @@
+header{
+	background: hsl(0, 0%, 20%);
+}
+
+body{
+	background: hwb(73 33% 5% / 0.986);
+	margin: 0;
+}
+
+html{
+	font-family: sans-serif;
+}
+
+h1{
+	font-family: 'Mali', cursive;
+	margin: 3% 0 0 3%; 
+	padding-bottom: 0;
+	font-size: 3rem;
+	text-align: left;
+	color: white;
+}
+
+h3{
+	font-family: 'Mali', cursive;
+	margin: 0 0 0.25% 3%;
+	text-align:left;
+	color: white;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item1{
+  
+    width: 85%;
+      
+}
+
+.flex-item2{
+  
+    width: 15%;
+    
+}
+
+.nav{
+
+    
+	color: white;
+	font-weight: bold;
+    text-decoration: none;
+    margin: 3% 0  0.3% 0;
+    padding: 0.2rem 0.1rem;
+    border-radius: 5rem;
+    font-size: 1,25vw;
+	
+}
+
+.nav:hover{
+	font-style: oblique;
+	font-weight: lighter;
+	transition: 0.7s;
+	background-color: hwb(73 33% 5% / 0.986)
+	
+
+}
+li{
+	list-style: none;
+	margin-bottom: 3%;
+}
+
+h2{
+	padding-top: 5%;
+	text-align: center;
+	
+}
+
+.centrado{
+	margin: 0 auto;
+	padding: 0 0.8em;
+}
+
+@media screen and (min-width: 72em){
+	.centrado{
+		max-width: 72em;
+	}
+}
+
+.tarjeta{
+	background: white;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding: 0.5rem;
+	width: 22%;
+}
+
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.tarjeta a{
+	color: black;
+	text-decoration: none;
+}
+
+.tarjeta a:hover{
+	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+};
+
+.tarjeta-content{  
+	padding: 1.4rem;
+	
+}
+
+.tarjeta-content h2{
+	margin-top: 0;
+	margin-bottom: .5rem;
+	font-weight: normal;
+}
+
+.tarjeta-content p{
+	font-size: 95%;
+}
+
+figure{
+	margin: 0;
+}
+
+.img-est{
+	display: block;
+	border:0;
+	width: 100%;
+	height: 10rem;
+}
+.img-est:hover{
+	border-radius: 50%;
+
+}
+
+footer{
+	margin: 0;
+	background: hsl(0, 0%, 20%);
+}
+
+.section-tam{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 5%;
+	width: 50%;
+	height: 35%;
+
+}
