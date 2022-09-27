@@ -36,16 +36,10 @@ h3{
       
 }
 
-.flex-item2{
-  
-    width: 15%;
-    
-}
 
 .nav{
 
-    
-	color: white;
+    color: white;
 	font-weight: bold;
     text-decoration: none;
     margin: 3% 0  0.3% 0;
@@ -56,8 +50,8 @@ h3{
 }
 
 .nav:hover{
+	color: white;
 	font-style: oblique;
-	font-weight: lighter;
 	transition: 0.7s;
 	background-color: hwb(73 33% 5% / 0.986)
 	
@@ -144,11 +138,56 @@ footer{
 	background: hsl(0, 0%, 20%);
 }
 
-.section-tam{
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-bottom: 5%;
-	width: 50%;
-	height: 35%;
+@media screen and (max-width: 640px) {
+	
+	.tarjeta{
+		width: 100%;
+	
+	}
 
+}
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+		
+	.tarjeta{
+		width: 44%;
+	
+	}
+}
+
+@media (max-width: 767px) {
+	
+
+	.carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+	
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
 }
