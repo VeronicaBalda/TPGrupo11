@@ -75,7 +75,6 @@ ul {
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-    border-radius: 20px 20px 20px 20px;
 }
 
 .contact-wrapper > * {
@@ -84,7 +83,6 @@ ul {
 
 .contact-form {
     background: #09351e;
-    border-radius: 20px 0px 0px 20px;
 }
 
 .contact-form form {
@@ -143,7 +141,6 @@ ul {
 .contact-info {
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     background: rgb(7, 54, 17);
-    border-radius: 0px 20px 20px 0px;
 }
 .contact-info h4, .contact-info ul, .contact-info p {
     text-align: center;
