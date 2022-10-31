@@ -56,6 +56,13 @@ li{
 	margin-bottom: 3%;
 }
 
+@media screen and (min-width: 72em){
+	.centrado{
+		max-width: 72em;
+	}
+}
+
+
 .container {
     max-width: 1170px;
     margin-left: auto;
